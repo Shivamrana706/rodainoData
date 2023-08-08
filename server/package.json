@@ -5,11 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start":"node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "client-install":"cd client && npm install",
-    "client_build": "cd client && npm run build",
-    "heroku-postbuild": "npm run client-install && npm run client-build"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
